@@ -6,4 +6,4 @@ export const MoviesList = ({movies}) => (
             {movies.map(m => <MovieItem title = {m.title} />)}
         </ul>
     </section>
-)
+);
